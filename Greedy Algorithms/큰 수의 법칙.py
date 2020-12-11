@@ -17,3 +17,5 @@ while True:
         total+=number[N-2]
         M-=1
 print(total)
+
+# 한 번 못풀었었음

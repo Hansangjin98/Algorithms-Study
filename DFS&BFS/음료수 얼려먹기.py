@@ -26,3 +26,4 @@ for i in range(Y):
 print(result)
 
 # 복습 많이 필요할듯.
+# 1회 복습 완료

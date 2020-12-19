@@ -22,11 +22,11 @@ def bfs(y,x):
             if graph[ny][nx] == 0:
                 continue
             if graph[ny][nx] == 1:
-                graph[ny][nx] = graph[x][y] +1
-                queue.append((nx,ny))
-
+                graph[ny][nx] = graph[y][x] +1
+                queue.append((ny,nx))
     return graph[Y-1][X-1]
 
-
 print(bfs(0,0))
+
 # 복습 많이 필요할듯.
+# 2회 복습했는데도 막힘

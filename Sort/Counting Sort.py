@@ -1,11 +1,11 @@
 #Counting Sort
 
-count=[0]*5
-array=[1,3,2,4,3,2,5,3,1,2,3,4,4,3,5,1,2,3,5,2,3,1,4,3,5,1,2,1,1,1]
+array=[7, 5, 9, 0, 3, 1, 6, 2, 9, 1, 4, 8, 0, 5, 2]
+count = [0] * (max(array)+1)
 
-for i in range (0,30):
-    count[array[i]-1]+=1
+for i in range(len(array)):
+    count[array[i]]+=1
 
-for i in range (len(count)):
-    for j in range (count[i]):
-        print(i+1, end = ' ')
+for i in range(len(count)):
+    for j in range(count[i]):
+        print(i, end = ' ')

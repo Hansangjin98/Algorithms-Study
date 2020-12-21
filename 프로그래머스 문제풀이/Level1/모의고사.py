@@ -1,4 +1,4 @@
-# 자료형
+# 완전탐색
 
 def solution(answers):
     result = []
